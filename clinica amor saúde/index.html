@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amor Saúde Franca | Clínica Médica e Odontológica</title>
+  <meta name="description" content="Cuidar de você é o nosso jeito de amar. Medicina, odontologia e exames em Franca/SP — atendimento humanizado, agendamento pelo WhatsApp." />
+  <meta name="theme-color" content="#0a1517" />
+  <meta property="og:title" content="Amor Saúde Franca — Cuidado que acolhe, saúde que transforma" />
+  <meta property="og:description" content="Medicina, odontologia e exames em Franca/SP. Atendimento humanizado e agendamento direto pelo WhatsApp." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <link rel="icon" href="assets/images/logo-heart.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <!-- Background ambient effects -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="ambient-dots"></div>
+    <div class="ambient-aurora ambient-aurora-1"></div>
+    <div class="ambient-aurora ambient-aurora-2"></div>
+    <div class="ambient-aurora ambient-aurora-3"></div>
+  </div>
+
+  <!-- ===== NAV ===== -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#inicio" aria-label="Amor Saúde Franca — início">
+        <img src="assets/images/logo-full.png" alt="Amor Saúde Clínica Médica" class="brand-logo" />
+      </a>
+      <nav class="nav" aria-label="Navegação">
+        <a href="#clinica">A clínica</a>
+        <a href="#odontologia">Odontologia</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#depoimentos">Pacientes</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="btn btn-ghost btn-sm" data-whatsapp href="#">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.7 11.7 0 0 0 12 0C5.4 0 .1 5.3.1 11.8c0 2.1.5 4.1 1.6 5.9L0 24l6.5-1.7c1.7.9 3.6 1.4 5.5 1.4 6.5 0 11.9-5.3 11.9-11.8 0-3.2-1.2-6.1-3.4-8.4z"/></svg>
+        Agendar
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO EDITORIAL ===== -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text-col">
+          <span class="hero-eyebrow">
+            <span class="hero-eyebrow-line"></span>
+            Clínica Médica & Odontológica em Franca/SP
+          </span>
+          <h1 class="hero-title">
+            Cuidar de você<br>
+            é o nosso jeito<br>
+            <em>de amar</em>.
+          </h1>
+          <p class="hero-lede">
+            Medicina, odontologia e exames com atendimento humanizado — para a família toda, sem fila e sem burocracia. Agende pelo WhatsApp em segundos.
+          </p>
+          <div class="hero-cta-row">
+            <a class="btn btn-primary btn-lg shimmer" data-whatsapp href="#">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.7 11.7 0 0 0 12 0C5.4 0 .1 5.3.1 11.8c0 2.1.5 4.1 1.6 5.9L0 24l6.5-1.7c1.7.9 3.6 1.4 5.5 1.4 6.5 0 11.9-5.3 11.9-11.8 0-3.2-1.2-6.1-3.4-8.4z"/></svg>
+              Agendar pelo WhatsApp
+            </a>
+            <a class="link-arrow" href="#odontologia">
+              Ver odontologia
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <strong>300+</strong>
+              <span>clínicas no Brasil</span>
+            </div>
+            <div class="hero-meta-item">
+              <strong>4.000+</strong>
+              <span>tipos de exames</span>
+            </div>
+            <div class="hero-meta-item">
+              <strong>4,9 ★</strong>
+              <span>avaliação dos pacientes</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image-col">
+          <figure class="hero-figure">
+            <div class="hero-glow" aria-hidden="true"></div>
+            <div class="hero-carousel" id="heroCarousel">
+              <div class="hero-slide is-active" data-caption-tag="QUEM AMA, CUIDA." data-caption-text="Atendimento humanizado para a família — desde a primeira mensagem.">
+                <img src="assets/images/familia-hero.png" alt="Médica recebendo família com sorriso" loading="eager" />
+              </div>
+              <div class="hero-slide" data-caption-tag="CUIDADO QUE ACOLHE" data-caption-text="Recepção moderna e acolhedora, no coração de Franca/SP.">
+                <img src="assets/images/recepcao.png" alt="Recepção da clínica Amor Saúde Franca" loading="lazy" />
+              </div>
+              <div class="hero-slide" data-caption-tag="SAÚDE COMPLETA" data-caption-text="Diagnóstico por imagem com equipamentos modernos e laudo confiável.">
+                <img src="assets/images/ultrassom.png" alt="Sala de ultrassom moderna" loading="lazy" />
+              </div>
+              <div class="hero-slide" data-caption-tag="ESCUTA DE VERDADE" data-caption-text="Consultas com tempo de qualidade — porque você não é só mais um número.">
+                <img src="assets/images/consulta-exames.png" alt="Médico explicando exame para paciente" loading="lazy" />
+              </div>
+              <div class="hero-slide" data-caption-tag="GENTE QUE CUIDA" data-caption-text="Acompanhamento atencioso para todas as fases da vida.">
+                <img src="assets/images/atendimento-acolhedor.png" alt="Atendimento humanizado a casal idoso" loading="lazy" />
+              </div>
+            </div>
+            <figcaption class="hero-caption" id="heroCaption">
+              <span class="hero-caption-tag">QUEM AMA, CUIDA.</span>
+              <span class="hero-caption-text">Atendimento humanizado para a família — desde a primeira mensagem.</span>
+            </figcaption>
+            <div class="hero-dots" id="heroDots" role="tablist" aria-label="Selecionar slide">
+              <button class="hero-dot is-active" data-slide="0" aria-label="Slide 1"></button>
+              <button class="hero-dot" data-slide="1" aria-label="Slide 2"></button>
+              <button class="hero-dot" data-slide="2" aria-label="Slide 3"></button>
+              <button class="hero-dot" data-slide="3" aria-label="Slide 4"></button>
+              <button class="hero-dot" data-slide="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="hero-progress" aria-hidden="true">
+              <div class="hero-progress-bar" id="heroProgress"></div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MARQUEE / CRED ===== -->
+    <section class="marquee-bar" aria-label="Especialidades disponíveis">
+      <div class="marquee-track">
+        <span>Implantes</span><i>✦</i>
+        <span>Clareamento</span><i>✦</i>
+        <span>Lentes de contato dental</span><i>✦</i>
+        <span>Alinhadores invisíveis</span><i>✦</i>
+        <span>Ginecologia</span><i>✦</i>
+        <span>Oftalmologia</span><i>✦</i>
+        <span>Ultrassom</span><i>✦</i>
+        <span>Tomografia</span><i>✦</i>
+        <span>Raio-X</span><i>✦</i>
+        <span>Laboratório</span><i>✦</i>
+        <span>Clínica geral</span><i>✦</i>
+        <span>Implantes</span><i>✦</i>
+        <span>Clareamento</span><i>✦</i>
+        <span>Lentes de contato dental</span><i>✦</i>
+        <span>Alinhadores invisíveis</span><i>✦</i>
+        <span>Ginecologia</span><i>✦</i>
+        <span>Oftalmologia</span><i>✦</i>
+        <span>Ultrassom</span><i>✦</i>
+      </div>
+    </section>
+
+    <!-- ===== A CLÍNICA ===== -->
+    <section id="clinica" class="section about">
+      <div class="container about-grid">
+        <figure class="about-figure">
+          <img src="assets/images/recepcao.png" alt="Recepção da Amor Saúde Franca" />
+          <span class="about-figure-tag">A nossa recepção</span>
+        </figure>
+        <div class="about-copy">
+          <span class="section-kicker">A clínica</span>
+          <h2 class="section-title">Bem-vindo à <em>Amor Saúde</em>&nbsp;Franca.</h2>
+          <p class="lead">
+            Aqui o atendimento começa pelo olhar. Você é recebido por gente que escuta com atenção, conduzido por profissionais que cuidam com afeto — e atendido em uma estrutura moderna, limpa e pensada para o seu conforto.
+          </p>
+          <blockquote class="pull-quote">
+            <span class="quote-mark" aria-hidden="true">"</span>
+            Cuidado que acolhe, saúde que transforma.
+            <small>— Lema da clínica</small>
+          </blockquote>
+          <ul class="check-bullets">
+            <li>Equipe acolhedora desde a primeira mensagem no WhatsApp</li>
+            <li>Estrutura moderna com salas privativas e sala de exames</li>
+            <li>Valores acessíveis — sem plano? Atendimento mesmo assim</li>
+            <li>Resultado de exames com agilidade e orientação humanizada</li>
+          </ul>
+          <a class="link-arrow strong" data-whatsapp href="#">
+            Conhecer a clínica pelo WhatsApp
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ODONTOLOGIA EM DESTAQUE ===== -->
+    <section id="odontologia" class="section odonto">
+      <div class="container">
+        <div class="section-head split">
+          <div>
+            <span class="section-kicker light">Odontologia premium</span>
+            <h2 class="section-title light">Um sorriso bem cuidado <em>muda tudo.</em></h2>
+          </div>
+          <p class="lead light">
+            Tratamentos modernos para estética e função — com avaliação cuidadosa, plano transparente e a calma de quem entende cada caso.
+          </p>
+        </div>
+
+        <div class="odonto-grid">
+          <article class="odonto-card lg">
+            <div class="odonto-card-num">01</div>
+            <h3>Implantes dentários</h3>
+            <p>Reposição segura e estética, com diagnóstico por imagem e protocolos modernos. Devolve a função e a confiança.</p>
+            <span class="odonto-card-tag">Diagnóstico digital</span>
+          </article>
+
+          <article class="odonto-card">
+            <div class="odonto-card-num">02</div>
+            <h3>Clareamento dental</h3>
+            <p>Resultado visível e seguro, com acompanhamento profissional e respeito à sensibilidade.</p>
+          </article>
+
+          <article class="odonto-card featured">
+            <div class="odonto-card-badge">Mais procurado</div>
+            <div class="odonto-card-num">03</div>
+            <h3>Lentes de contato dental</h3>
+            <p>Sorriso harmônico e natural com acabamento delicado. Sem desgaste agressivo.</p>
+            <span class="odonto-card-tag dark">Estética avançada</span>
+          </article>
+
+          <article class="odonto-card">
+            <div class="odonto-card-num">04</div>
+            <h3>Alinhadores invisíveis</h3>
+            <p>Discrição total: corrija o sorriso sem que ninguém perceba seu tratamento.</p>
+          </article>
+
+          <article class="odonto-card lg">
+            <div class="odonto-card-num">05</div>
+            <h3>Tratamentos estéticos do sorriso</h3>
+            <p>Harmonização, gengivoplastia e refinamento — naturalidade em primeiro lugar.</p>
+            <span class="odonto-card-tag">Acabamento premium</span>
+          </article>
+        </div>
+
+        <div class="odonto-cta">
+          <p>Quer saber qual tratamento é o ideal para você?</p>
+          <a class="btn btn-gold btn-lg" data-whatsapp href="#">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.7 11.7 0 0 0 12 0C5.4 0 .1 5.3.1 11.8c0 2.1.5 4.1 1.6 5.9L0 24l6.5-1.7c1.7.9 3.6 1.4 5.5 1.4 6.5 0 11.9-5.3 11.9-11.8 0-3.2-1.2-6.1-3.4-8.4z"/></svg>
+            Falar com a equipe
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ESPECIALIDADES MÉDICAS ===== -->
+    <section id="especialidades" class="section specialties">
+      <div class="container">
+        <div class="section-head center">
+          <span class="section-kicker">Especialidades médicas</span>
+          <h2 class="section-title">Muito além da odontologia.<br><em>Saúde completa</em>, num só lugar.</h2>
+          <p class="lead center">
+            Consultas, diagnóstico por imagem e exames laboratoriais — com a mesma postura humanizada que define a Amor Saúde.
+          </p>
+        </div>
+
+        <div class="specialties-grid">
+          <article class="spec-card">
+            <figure>
+              <img src="assets/images/consulta-exames.png" alt="Médico apresentando exame de imagem para paciente" />
+            </figure>
+            <div class="spec-body">
+              <h3>Clínica Médica & Especialidades</h3>
+              <p>Clínico geral, ginecologia, oftalmologia e mais — consultas com tempo de qualidade.</p>
+              <ul>
+                <li>Clínica Geral</li>
+                <li>Ginecologia</li>
+                <li>Oftalmologia</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="spec-card">
+            <figure>
+              <img src="assets/images/ultrassom.png" alt="Profissional realizando exame de ultrassom em equipamento moderno" />
+            </figure>
+            <div class="spec-body">
+              <h3>Diagnóstico por Imagem</h3>
+              <p>Equipamentos modernos e laudo confiável — para responder rápido ao que importa.</p>
+              <ul>
+                <li>Ultrassom</li>
+                <li>Tomografia</li>
+                <li>Raio-X</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="spec-card">
+            <figure>
+              <img src="assets/images/atendimento-acolhedor.png" alt="Médico atendendo casal de idosos com acolhimento" />
+            </figure>
+            <div class="spec-body">
+              <h3>Atendimento da Família</h3>
+              <p>Cuidado para todas as idades — da primeira consulta da criança ao acompanhamento do idoso.</p>
+              <ul>
+                <li>Pediatria</li>
+                <li>Geriatria</li>
+                <li>Acompanhamento</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="spec-card">
+            <figure>
+              <img src="assets/images/familia-hero.png" alt="Família sendo recebida pela médica" />
+            </figure>
+            <div class="spec-body">
+              <h3>Laboratório & Exames</h3>
+              <p>Mais de 4.000 tipos de exames disponíveis na rede — coleta rápida e resultado on-line.</p>
+              <ul>
+                <li>Sangue</li>
+                <li>Urina e fezes</li>
+                <li>Check-up</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HUMANIZADO ===== -->
+    <section class="section humanized">
+      <div class="container humanized-grid">
+        <div class="humanized-image">
+          <img src="assets/images/atendimento-acolhedor.png" alt="Atendimento humanizado" />
+        </div>
+        <div class="humanized-copy">
+          <span class="section-kicker">Atendimento humanizado</span>
+          <h2 class="section-title">Cuidar do paciente <em>como gente.</em></h2>
+          <p>O que mais ouvimos dos nossos pacientes não é sobre tecnologia — é sobre como se sentiram. Aqui, ninguém é "o próximo da fila". Cada pessoa tem nome, história e tempo.</p>
+
+          <div class="humanized-list">
+            <div class="humanized-item">
+              <span class="humanized-icon">♥</span>
+              <div>
+                <strong>Escuta ativa</strong>
+                <p>A consulta começa quando você fala — e a equipe escuta sem pressa.</p>
+              </div>
+            </div>
+            <div class="humanized-item">
+              <span class="humanized-icon">✦</span>
+              <div>
+                <strong>Comunicação clara</strong>
+                <p>Você sai entendendo o que tem, o que vai fazer e quanto vai custar.</p>
+              </div>
+            </div>
+            <div class="humanized-item">
+              <span class="humanized-icon">⟶</span>
+              <div>
+                <strong>Acompanhamento real</strong>
+                <p>A relação não acaba na consulta — você continua amparado depois.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section id="depoimentos" class="section testimonials">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Pacientes</span>
+          <h2 class="section-title">Histórias de quem foi <em>bem cuidado.</em></h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testi">
+            <div class="testi-quote">"Sempre tive medo de dentista. Aqui me senti em casa — fizeram o implante com tanto cuidado que voltei pra fazer o clareamento. Mudou minha rotina."</div>
+            <div class="testi-author">
+              <span class="testi-avatar coral">M</span>
+              <div>
+                <strong>Mariana S.</strong>
+                <span>35 anos · Franca/SP · Implante + clareamento</span>
+              </div>
+            </div>
+            <span class="testi-tag">Depoimento ilustrativo</span>
+          </article>
+
+          <article class="testi center">
+            <div class="testi-stars">★★★★★</div>
+            <div class="testi-quote large">"Levei minha filha pra primeira consulta com oftalmo. A médica conversou com ela na altura dela, com paciência. Saímos com receita e com sorriso."</div>
+            <div class="testi-author">
+              <span class="testi-avatar teal">P</span>
+              <div>
+                <strong>Patrícia R.</strong>
+                <span>42 anos · Oftalmologia infantil</span>
+              </div>
+            </div>
+            <span class="testi-tag">Depoimento ilustrativo</span>
+          </article>
+
+          <article class="testi">
+            <div class="testi-quote">"Marquei meu ultrassom pelo WhatsApp em dois minutos. A clínica é linda, o atendimento foi rápido e o laudo saiu no mesmo dia. Recomendo demais."</div>
+            <div class="testi-author">
+              <span class="testi-avatar gold">L</span>
+              <div>
+                <strong>Luciana P.</strong>
+                <span>28 anos · Ultrassom</span>
+              </div>
+            </div>
+            <span class="testi-tag">Depoimento ilustrativo</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="section faq-section">
+      <div class="container faq-grid">
+        <div>
+          <span class="section-kicker">FAQ</span>
+          <h2 class="section-title">Perguntas frequentes.</h2>
+          <p>Não encontrou o que precisava? Pergunte direto pelo WhatsApp — nossa equipe responde em minutos.</p>
+          <a class="btn btn-primary" data-whatsapp href="#">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.7 11.7 0 0 0 12 0C5.4 0 .1 5.3.1 11.8c0 2.1.5 4.1 1.6 5.9L0 24l6.5-1.7c1.7.9 3.6 1.4 5.5 1.4 6.5 0 11.9-5.3 11.9-11.8 0-3.2-1.2-6.1-3.4-8.4z"/></svg>
+            Falar com a equipe
+          </a>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>Como faço para agendar?</summary>
+            <div class="faq-body"><p>Clique em qualquer botão de WhatsApp nesta página. Você cai direto na conversa com nossa equipe, sem ligação ou formulário longo.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary>Preciso ter plano de saúde?</summary>
+            <div class="faq-body"><p>Não. A Amor Saúde Franca atende particular com valores acessíveis — pensados justamente para quem não tem plano.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary>Quais especialidades vocês atendem?</summary>
+            <div class="faq-body"><p>Odontologia completa, clínica geral, ginecologia, oftalmologia, exames laboratoriais e diagnóstico por imagem (ultrassom, tomografia, raio-x).</p></div>
+          </details>
+          <details class="faq-item">
+            <summary>Atendem pacientes de Franca e cidades vizinhas?</summary>
+            <div class="faq-body"><p>Sim, atendemos Franca/SP e toda a região. Nossa equipe orienta como chegar quando você agendar.</p></div>
+          </details>
+          <details class="faq-item">
+            <summary>Como funciona o pagamento?</summary>
+            <div class="faq-body"><p>Aceitamos cartão, PIX e parcelamos consultas e tratamentos. Para odontologia, oferecemos plano com mensalidades acessíveis.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="cta-final">
+      <div class="cta-final-glow" aria-hidden="true"></div>
+      <div class="container cta-final-inner">
+        <span class="section-kicker dark">Vamos cuidar de você</span>
+        <h2 class="cta-headline">
+          Seu próximo cuidado<br>
+          começa com <em>um "oi"</em>.
+        </h2>
+        <p>Atendimento humano e ágil pelo WhatsApp. Sem compromisso, sem fila, sem pressa.</p>
+        <a class="btn btn-gold btn-xl shimmer" data-whatsapp href="#">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.7 11.7 0 0 0 12 0C5.4 0 .1 5.3.1 11.8c0 2.1.5 4.1 1.6 5.9L0 24l6.5-1.7c1.7.9 3.6 1.4 5.5 1.4 6.5 0 11.9-5.3 11.9-11.8 0-3.2-1.2-6.1-3.4-8.4z"/></svg>
+          Agendar minha avaliação agora
+        </a>
+        <p class="cta-small">Quem ama, cuida. ❤</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/images/logo-wordmark.png" alt="Amor Saúde Clínica Médica" class="footer-logo" />
+        <p>Clínica médica e odontológica em Franca/SP. Parte da maior rede de clínicas populares do Brasil.</p>
+      </div>
+      <div>
+        <strong>Atendimento</strong>
+        <p>Seg a Sex • 08h–18h<br>Sábado • 08h–12h</p>
+      </div>
+      <div>
+        <strong>Cidade</strong>
+        <p>Franca • SP<br>Atende toda a região</p>
+      </div>
+      <div>
+        <strong>Contato</strong>
+        <p><a data-whatsapp href="#">WhatsApp</a><br>amorsaude.com.br</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; <span id="year"></span> Amor Saúde Franca. Quem ama, cuida.</span>
+      <span>Layout desenvolvido sob medida.</span>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING WHATSAPP ===== -->
+  <a class="wa-float" data-whatsapp href="#" aria-label="Falar com a Amor Saúde Franca no WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11.7 11.7 0 0 0 12 0C5.4 0 .1 5.3.1 11.8c0 2.1.5 4.1 1.6 5.9L0 24l6.5-1.7c1.7.9 3.6 1.4 5.5 1.4 6.5 0 11.9-5.3 11.9-11.8 0-3.2-1.2-6.1-3.4-8.4z"/></svg>
+  </a>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
